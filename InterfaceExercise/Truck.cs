@@ -20,12 +20,13 @@ namespace InterfaceExercise
 
         public int EIN { get; set; }
 
-        public void TruckInfo(int bedSizes)
+        public void TruckInfo(int bedSizes, string VINnum)
         {
+            string VIN = VINnum;
             int bedSize = bedSizes;
 
             Console.WriteLine(" -----  Truck Info ---");
-            Console.WriteLine("Truck bed  Size in Inch: " + bedSizes);
+            Console.WriteLine($"Truck bed  Size in Inch={bedSizes}, Truck VIN= {VINnum}" );
 
         }
 

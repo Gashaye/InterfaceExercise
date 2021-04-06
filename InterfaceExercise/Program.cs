@@ -15,7 +15,7 @@ namespace InterfaceExercise
 
             car.CarInfo(true, 4, 4, 4);
 
-            truck.TruckInfo(50);
+            truck.TruckInfo(50, "VE1237ER");
 
 
             //TODO Be sure to follow BEST PRACTICES when creating classes and interfaces
